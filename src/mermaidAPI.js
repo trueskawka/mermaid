@@ -33,7 +33,7 @@ import gitGraphParser from './diagrams/git/parser/gitGraph'
 import gitGraphAst from './diagrams/git/gitGraphAst'
 
 const themes = {}
-for (const themeName of ['default', 'forest', 'dark', 'neutral', 'icons']) {
+for (const themeName of ['default', 'forest', 'dark', 'neutral', 'icons', 'whimsy']) {
   themes[themeName] = require(`./themes/${themeName}/index.scss`)
 }
 

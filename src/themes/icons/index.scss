@@ -51,13 +51,6 @@ $critBorderColor: #ff8888;
 $critBkgColor: red;
 $todayLineColor: red;
 
-@font-face {
-    font-family: "three";
-    src: url("https://s3.amazonaws.com/alicja-mermaid-bucket/fonts/three.eot");
-    src: url("https://s3.amazonaws.com/alicja-mermaid-bucket/fonts/three.woff") format("woff"),
-    url("https://s3.amazonaws.com/alicja-mermaid-bucket/fonts/three.otf") format("opentype"),
-    url("https://s3.amazonaws.com/alicja-mermaid-bucket/fonts/three.svg#filename") format("svg");
-}
 .label {
     color: #333;
     text-align: center;
@@ -114,8 +107,8 @@ div.mermaidTooltip {
 }
 
 *, html, body {
-    font-size: 30px;
-    font-family: 'three', sans-serif;
+    font-size: 14px;
+    font-family: 'Trebuchet', sans-serif;
 }
 
 .edgeLabel {
@@ -268,24 +261,4 @@ svg g.node > * {
 
 .webpack {
     background-image: url('https://s3.amazonaws.com/alicja-mermaid-bucket/regular/icons/webpack.png');
-}
-
-/* whimsy */
-
-.client {
-    background-image: url('https://s3.amazonaws.com/alicja-mermaid-bucket/whimsical/client.png');
-    height: 125px;
-    width: 150px;
-}
-
-.origin {
-    background-image: url('https://s3.amazonaws.com/alicja-mermaid-bucket/whimsical/origin.png');
-    height: 100px;
-    width: 175px;
-}
-
-.proxy {
-    background-image: url('https://s3.amazonaws.com/alicja-mermaid-bucket/whimsical/proxy.png');
-    height: 150px;
-    width: 125px;
 }
